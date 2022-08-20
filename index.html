@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Silkscreen&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Click To Play</h1>
+
+      <div class="dice">
+        <button class="player1" onclick="takeInput1()">Player 1</button>
+        <img class="img1" src="images/dice1.png">
+      </div>
+
+      <div class="dice">
+        <button class="player2" onclick="takeInput2()">Player 2</button>
+        <img class="img2" src="images/dice1.png">
+      </div>
+      <div>
+        <h2 class="hidden">Player Wins</h2>
+        <button class="btn" type="button" name="button" onclick="randomImage()">Press</button>
+
+      </div>
+    </div>
+
+
+  </body>
+
+  <footer>
+    ©Copyright @ Aafaq Ahmad 2022🎲
+    <script src="index.js" charset="utf-8"></script>
+  </footer>
+</html>

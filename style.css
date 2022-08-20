@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+  background-color: #152D35;
+  font-family: 'Ubuntu';
+  color: #345B63;
+}
+h1{
+  font-family: 'Silkscreen';
+  font-size: 6rem;
+  text-align: center;
+}
+.container{
+  padding: 0 20% 0;
+}
+.player1, .player2{
+  margin:10% auto;
+  display: block;
+  background-color: #345B63;
+  color: #152D35;
+  border: 0;
+  width: 60%;
+  height: 3rem;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.player2:hover,.player1:hover{
+  color: #808080;
+}
+.dice{
+  width: 40%;
+  font-size: 2rem;
+  font-weight: bolder;
+  display: inline-block;
+}
+.dice img{
+  width: 45%;
+}
+.hidden{
+visibility: hidden;
+}
+.winner{
+  font-family: 'Silkscreen';
+  font-size: 3.5rem;
+  visibility: visible;
+  padding: 15% 0 0;
+}
+.btn{
+  margin: 2% 0 7%;
+  text-align: center;
+  background-color: #345B63;
+  color: #152D35;
+  border: 0;
+  width: 50%;
+  height: 50px;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.btn:hover{
+border: 2px solid #345B63;
+background-color: #152D35;
+color: #345B63;
+}
+footer{
+  position: relative;
+  width: 100%;
+  padding: 5% 0 0;
+  bottom: 30px;
+  font-weight: bold;
+}
+@media (max-width: 756px){
+  h1{
+    font-size: 5rem;
+  }
+  .player1, .player2{
+    font-size: 1rem;
+    width: 80%;
+  }
+}
